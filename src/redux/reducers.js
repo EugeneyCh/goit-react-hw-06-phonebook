@@ -5,6 +5,8 @@ const appReducer = combineReducers({
   state: contactsReducer,
 });
 
-export default (state, action) => {
-  return appReducer(state, action);
-};
+export default appReducer;
+
+// export default (state, action) => {
+//   return appReducer(state, action);
+// };

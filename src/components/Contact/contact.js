@@ -2,7 +2,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { getContacts, getFilter } from 'redux/users/selectors';
 import { deleteContact } from 'redux/users/actions';
 import css from './Contact.module.css';
-import { useRef } from 'react';
+// import { useRef } from 'react';
 
 function Contact() {
   const contacts = useSelector(getContacts);
